@@ -5,7 +5,13 @@ body{
 
     background-color: white;
     background-image: url("Background.jpg");
-
+    background-image: url(Hintergrund2.jpg); 
+    background-position:  center; 
+    background-repeat: no-repeat; 
+    background-size:cover; 
+    background-attachment:fixed; 
+  
+  
 }
 
 /* Überschriften */
