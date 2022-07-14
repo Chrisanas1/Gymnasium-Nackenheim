@@ -38,72 +38,28 @@ h1{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* top Navigationbar*/  
 
-.topnav {
-    overflow: hidden;
-    background-color: #000000;
-  }
-
-/* links in der Navigationbar */
-
-.topnav a {
-    float: left;
-    display: block;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-
-/* Farbe beim hovern ändern */
-
-.topnav a:hover{
-
-    background-color: #ddd;
-    color: black;
+.icon-bar {
+  width: 100%; 
+  background-color: #555; 
+  overflow: auto; 
 }
 
-/* Farbe bei aktiv */
-
-.topnav a.active{
-
-background-color: blue;
-color: white; 
-    
+.icon-bar a {
+  float: left; 
+  text-align: center;
+  width: 20%; 
+  padding: 12px 0;
+  transition: all 0.3s ease; 
+  color: white; 
+  font-size: 36px; 
 }
 
-/*searchbox*/
+.icon-bar a:hover {
+  background-color: #000; 
+}
 
-.topnav input[type=text] {
-    float: right;
-    padding: 6px;
-    border: none;
-    margin-top: 8px;
-    margin-right: 16px;
-    font-size: 17px;
-  }
-  
+.active {
+  background-color: #04AA6D; 
+}
